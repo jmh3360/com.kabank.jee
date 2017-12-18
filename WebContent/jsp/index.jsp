@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
 <!doctype html>
 <html lang="en">
 <head>
@@ -7,73 +6,60 @@
 <title>Index</title>
 <style>
 /* 메인테이블 */
-table {
-	width: 80%;
-	height: 620px;
-	margin: 0 auto;
-}
 
-table tr {
-	width: 100%;
-	height: 50px;
-	border: 3px solid blue;
-}
-
-table tr th {
-	width: 100%;
-	height: 30px;
-	border: 3px solid red;
-}
-
-table tr td {
-	width: 100%;
-	height: 30px;
-	border: 3px solid blue;
-}
+	table, tr, td, th{border-collapse: collapse ; text-align: center;}
+#wrapper{width: 80%;height: 770px;margin: 0 auto; text-align: center;}
+#wrapper tr {width: 100%;height: 50px;border: 1px solid blue; text-align: center;}
+#wrapper tr th {width: 100%;height: 30px;border: 1px solid red; text-align: center;}
+#wrapper tr td {width: 100%;height: 30px;border: 1px solid blue; text-align: center;}
+	#login-box{width: 300px;margin: 0 auto;}
+	#login tr {width : 100%}
 </style>
 </head>
 <body>
+	
 
-
-	<table>
-		<tr style="height: 10%">
-			<td colspan="5">네비게이션</td>
+	<table id ="wrapper">
+		<tr style="height: 20%">
+			<td colspan="5"><a href="#">HOME</a></td>
 
 		</tr>
-		<tr style="height: 10%">
-			<td style="width: 20%">버거킹</td>
-			<td style="width: 20%">카카오뱅크</td>
-			<td style="width: 20%">비트캠프</td>
-			<td style="width: 20%">SKT 텔레콤</td>
-			<td style="width: 20%">로또</td>
-		</tr>
-		<tr>
-			<td colspan="5">
-				<div style="width: 300px; height: 200px; margin: 0 auto;">
-					<p>
-						햄버거 : ￦5,500 <br /> 콜라 : ￦ 1,000 <br /> 감자칩 : ￦1,000 <br /> 커피
-						: ￦900 <br />
-
-					</p>
-
-					<form action="result.jsp">
-						<input type="text" name="menu" placeholder="메뉴" /><br />
-						<!--바뀔수 있는 속성값을 property라 하고 바뀔 수 없는 속성 값을 attribute라 한다.
-	  -->
-						<input type="text" name="count" placeholder="수량" /> <input
-							type="hidden" name="hamburger" value="5500" /> <input
-							type="hidden" name="coke" value="1000" /> <input type="hidden"
-							name="chip" value="1000" /> <input type="hidden" name="coffee"
-							value="900" /> <input type="submit" value="전송" />
-						<!--
-	submit은 버튼 을 형성함
+		
+		<tr style="height: 200%">
+			<td  colspan="5">
+				
+<!-- 	submit은 버튼 을 형성함
 	text는 빈창을 생성하고 placeholder는 빈창에 미리보기기능
 	  -->
-					</form>
-				</div>
+				
+				<form action="burgerking/main.jsp">
+						<table id="Login-box" style="width: 300px; margin: 0 auto;">
+						<tr style="height: 30px;">
+							<td style= "width: 200px; height: 100%;" >
+						
+							<input style="width: 90%; height: 100%;" type="text" name="id" placeholder = "아이디" tabindex="1"/>
+							
+							</td>
+							<td rowspan="2" style="width: 200px; height: 30px;" >
+						
+							<input style="width: 100%; height: 100%;" type="submit" value="로그인" tabindex="3"/>
+							</td>
+						</tr>
+						<tr style="height: 30px;">
+							<td style= "width: 100%; height:  100%;">
+							
+							<input style="width: 90%; hegiht: 100%;" type="text" name="pw" placeholder = "비밀번호" tabindex="2"/>
+							
+							</td>
+							
+						</tr>
+					</table>
+				</form>
+			
 			</td>
 		</tr>
 	</table>
+				
 
 </body>
 </html>
