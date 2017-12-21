@@ -12,8 +12,8 @@
 			<article>
 				<header>
 					<hgroup>
-						<h1><mark>버거킹</mark> 주문화면</h1>
-						<h2>상품과 수량을 선택해 주세요</h2>
+						<h2><mark>버거킹</mark> 주문화면</h2>
+						<h3>상품과 수량을 선택해 주세요</h3>
 					</hgroup>
 				</header>
 			</article>

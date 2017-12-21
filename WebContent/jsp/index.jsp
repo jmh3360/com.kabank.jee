@@ -14,7 +14,7 @@
 <body>
 <div id="wrapper">
 <header id="index_header">
-<h1> BIT CAMP SAMPLE PROJECT </h1>
+<h1> BIT CAMP SAMPLE <br /> PROJECT </h1>
 </header>
 <section id="index_section">
 <article>
