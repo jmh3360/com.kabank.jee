@@ -8,7 +8,7 @@ table, tr, td, th{border-collapse: collapse ; text-align: center;}
 body{text-align: center;}
 a{text-decoration: none; color: #0000a0}
 #wrapper{width: 100%;margin: 0 auto; text-align: left;
-		 min-height: calc(100vh - 170px);
+		 min-height: calc(100vh - 200px);
 }
 #header{height: 50px; width: 100%;}
 #nav{background: #000080; padding: 5px 0px; width: 100%;

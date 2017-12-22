@@ -7,7 +7,9 @@
 <%@ include file="../common/nav.jsp"%>
 <section>
 <article>
+<div id="wrapper">
 <h1> 에케메인</h1>
+</div>
 </article>
 </section>
 <aside></aside>

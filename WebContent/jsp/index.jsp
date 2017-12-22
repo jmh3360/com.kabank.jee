@@ -40,8 +40,7 @@
 						</td>
 						
 						<td rowspan="2" >
-						<input id="index_input_btn" type="submit" value="로그인" tabindex="3" />
-						
+						<button id="index_input_btn" >로그인</button>
 						
 						</td>
 						
@@ -55,8 +54,8 @@
 					
 					</table>
 				</form>
-				<a id="go_admin" href="#">처음 오셨나요?</a>
-				<a id="go_join" href="#">회원가입</a>
+				<a id="go_admin_link" href="#">처음 오셨나요?</a>
+				<a id="go_join_link" href="#">회원가입</a>
 			
 			</td>
 		</tr>

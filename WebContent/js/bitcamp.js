@@ -1,6 +1,22 @@
 /**
  * 
  */
+function init() {
+	var arr=['burgerking', 'kakao','bitcamp','sktelecom','lotto'];
+	for(var i =0;i<arr.length; i++) {
+		document.querySelector('#'+arr[i]).addEventListener('click',
+				function(e) {
+					location.href = "../"+this.id+"/main.jsp";
+				},false);
+		
+	}
+}
+window.addEventListener("load",init,false);
+
+
+
+
+/*
 window.onload=clickMe; //로딩이 될 때 실행을 하라는 뜻
 function clickMe() {
 	document.querySelector('#burgerking') 
@@ -38,3 +54,4 @@ function goSkelecom() {
 	location.href = "../sktelecom/main.jsp";
 }
 
+*/

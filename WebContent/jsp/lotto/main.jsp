@@ -8,10 +8,15 @@
 <%@ include file="../common/nav.jsp"%>
 <section>
 <article>
+<div id="wrapper">
 <form action="result.jsp">
+<table id =><tr><td>
 	구매 금액 : <input type="text" name="money" placeholder="게임당 1000원 최대 5게임"/>
 	<input type="submit" value="전 송"/>
+</td></tr>
+</table>
 </form>
+</div>
 </article>
 </section>
 

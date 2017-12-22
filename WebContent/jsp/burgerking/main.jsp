@@ -87,7 +87,7 @@
 						<input type="hidden" name="coffee" value="900" />
 						<input type="hidden" name="bagel" value="4000" />
 						<input type="hidden" name="salad" value="3000" />
-						<input id="order_btn" type="button" value="전송" style="margin-right: 50px;" />
+						<input id="burgerking_order_btn" type="button" value="전송" style="margin-right: 50px;" />
 					</td>
 					</tr>
 					</table>
