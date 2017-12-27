@@ -13,13 +13,13 @@
 	Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", //연결 
 			"bitcamp", "bitcamp"); 
 	Statement stmt = conn.createStatement();
-	String sql = "SELECT COUNT(*) AS count FROM tab"; 
+	String sql = "SELECT * FROM tab"; 
 	ResultSet rs = stmt.executeQuery(sql); //실행하는 부분
 	String count = "";
 	while(rs.next()){
-		count = rs.getString("count"); //결과 전송
+		count = rs.getString("tname"); //결과 전송
 	}
-	System.out.println("테이블 수 :" + count);
+	System.out.println("테이블 이름 :" + count);
 	%>테이블 갯수는<%=count %> 입니다.<%
 	}catch(Exception e){
 		e.printStackTrace();
