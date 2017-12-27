@@ -1,0 +1,5 @@
+@charset "UTF-8";
+#admin_header{text-align: center}
+#admin_sidebar{float : left; margin-left: 50px; width: 200px; height: 500px; border-style: solid}
+#admin_table{border-collapse: collapse ; width:1000px; height:500px; margin-left: 300px; text-align: center; border-style: solid}
+table tr td{border-style: solid }

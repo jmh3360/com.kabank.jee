@@ -54,7 +54,7 @@
 					
 					</table>
 				</form>
-				<a id="go_admin_link" href="#">처음 오셨나요?</a>
+				<a id="go_admin_link" href="#">관리자</a>
 				<a id="go_join_link" href="#">회원가입</a>
 			
 			</td>
