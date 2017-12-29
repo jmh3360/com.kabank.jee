@@ -20,6 +20,7 @@ function checkDupl(e) {
 
 function joinConfirm(e) {
 	
+	document.querySelector('#join_form').submit();
 	var inputPass = document.querySelector('#input_pass').value;
 	var inputId = document.querySelector('#input_id').value;
 	alert('아이디 확인'+inputId+'비밀번호 확인'+inputPass);

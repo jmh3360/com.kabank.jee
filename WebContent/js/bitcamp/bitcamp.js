@@ -8,8 +8,12 @@ function init() {
 				function(e) {
 					location.href = "../"+this.id+"/main.jsp";
 				},false);
-		
 	}
+	document.querySelector('#bitcamp_attendance_btn').submit;
+}
+
+function bitCampAttendance() {
+	location.href = "result.jsp";
 }
 window.addEventListener("load",init,false);
 

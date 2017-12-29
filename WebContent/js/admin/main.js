@@ -8,6 +8,6 @@ function init() {
 }
 
 function goCreateTable() {
-	location.href = "member.jsp";
+	location.href = "member_list.jsp";
 	
 }

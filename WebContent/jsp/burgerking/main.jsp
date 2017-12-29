@@ -103,5 +103,5 @@
 	  -->
 <%@ include file="../common/footer.jsp"%>
 </body>
-<script src="../../js/burgerKing.js"></script>
+<script src="../../js/burgerking/burgerKing.js"></script>
 </html>

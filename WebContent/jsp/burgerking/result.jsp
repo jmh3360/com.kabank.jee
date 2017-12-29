@@ -110,5 +110,5 @@
 <aside></aside>
 <%@ include file="../common/footer.jsp"%>
 </body>
-<script src="../../js/burgerkingResult.js"></script>
+<script src="../../js/burgerking/burgerkingResult.js"></script>
 </html>

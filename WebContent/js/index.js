@@ -21,7 +21,7 @@ function goAdmin() {
     function goJoin() {
     	 var admin = confirm('회원가입하시겠습니까?');
          if(admin) {
-               location.href = "member/join.jsp";
+               location.href = "user/join_form.jsp";
          }else{
          }
 

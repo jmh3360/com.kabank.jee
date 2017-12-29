@@ -15,7 +15,7 @@
 </article>
 </section>
 <aside></aside>
-<form action="../index.jsp">
+<form id = "join_form" action="join.jsp">
 <table id="member_table">
 
 <!-- 페이지 안에는 동일한 id가 존재해서는 안된다.  -->
@@ -100,7 +100,7 @@
 
 </form>
 <%@ include file="../common/footer.jsp"%>
-<script src="../../js/join.js">
+<script src="../../js/user/join.js">
 
 </script>
 </body>
